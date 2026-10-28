@@ -15,7 +15,7 @@ ESPHome Device Builder is optional:
 | --- | --- |
 | CYD, 2.8 inch | ESP32-2432S028, 320×240, ILI9341 and XPT2046 |
 | CYD, 2.8 inch ILI9342 (experimental) | ESP32-2432S028 with an ILI9342 display controller, 320×240, XPT2046 |
-| Guition, 4 inch | ESP32-S3-4848S040, 480×480, ST7701S and GT911 |
+| Guition, 4 inch | ESP32-S3-4848S040, 480×480, ST7701S and GT911 ([details](GUITION.md)) |
 | Waveshare, 4.3 inch | ESP32-S3-Touch-LCD-4.3, 800×480, ST7262 and GT911 |
 | Waveshare, 5 inch (new) | ESP32-S3-Touch-LCD-5 (not the 5B), 800×480, RGB and GT911 ([details](WAVESHARE5.md)) |
 | Guition, 5 inch (experimental) | JC8048W550C_I (the capacitive variant only), 800×480, ST7262 RGB and GT911 ([details](JC8048W550.md)) |
@@ -34,6 +34,7 @@ ESPHome Device Builder is optional:
 | Guition, 4.3 inch (experimental) | JC4880P443, 480×800, ST7701 MIPI-DSI and GT911, pre-v3 ESP32-P4 ([details](JC4880P443.md)) |
 | CrowPanel, 10.1 inch (experimental) | Elecrow CrowPanel Advanced 10.1 ESP32-P4 (DHE04310D, V1.1 or V1.2), 1024×600, EK79007 MIPI-DSI and GT911, pre-v3 ESP32-P4 ([details](CROWPANEL101.md)) |
 | M5Stack Tab5, 5 inch (new) | Tab5 ST7121, 1280×720, ST7121 MIPI-DSI and touch, ESP32-P4 ([details](TAB5.md)) |
+| Panlee, 4 inch | ZX3D95CE01S-TR-4848, 480×480, GC9503V and FT6336U ([details](PANLEE.md)) |
 
 Other screens with roughly the same name can have different pins. Use
 the board profile that matches the hardware. Use a USB cable that supports data.
