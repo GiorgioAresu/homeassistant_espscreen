@@ -11,7 +11,7 @@ import type { Languages } from "../src/types";
 import { useUiStore } from "../src/stores/ui";
 import { useInventoryStore } from "../src/stores/inventory";
 
-const GUIDE = "https://github.com/MaxGramser/homeassistant_espscreen/blob/main/docs/TRANSLATING.md";
+const GUIDE = "https://github.com/GiorgioAresu/homeassistant_espscreen/blob/main/docs/TRANSLATING.md";
 function language(extra: Partial<Languages> = {}): Languages {
   return {
     setting: "auto", effective: "nl", ha: "nl", clock: "auto", clock_effective: "24", numbers: "auto", numbers_effective: "comma",
