@@ -172,7 +172,7 @@ esphome:
 packages:
   display:
     url: https://github.com/GiorgioAresu/homeassistant_espscreen
-    ref: main
+    ref: panlee
     files: [packages/BOARD.yaml]
     refresh: 0s
   local_overrides: !include kitchen.local.yaml
