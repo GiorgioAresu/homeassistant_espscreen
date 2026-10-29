@@ -20,7 +20,7 @@ external_components:
   - source:
       type: git
       url: https://github.com/GiorgioAresu/homeassistant_espscreen.git
-      ref: ${GITHUB_REF}
+      ref: panlee
       path: components
     refresh: 0s
     components: [smart_display]
