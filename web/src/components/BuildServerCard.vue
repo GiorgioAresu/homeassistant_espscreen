@@ -20,7 +20,7 @@ const ui = useUiStore();
 const { confirm } = useConfirm();
 const { busy, run } = useBusy();
 
-const DOCS = "https://github.com/MaxGramser/homeassistant_espscreen/blob/main/docs/BUILDS.md#on-a-build-server";
+const DOCS = "https://github.com/GiorgioAresu/homeassistant_espscreen/blob/main/docs/BUILDS.md#on-a-build-server";
 const HEADLESS = "esphome-device-builder --remote-build-only <folder>";
 
 const view = computed<BuildServerView | undefined>(() => inv.inventory.build_server);

@@ -83,8 +83,8 @@ class TheChangelog(unittest.TestCase):
 
 class TheIssues(unittest.TestCase):
     def test_the_issues_a_section_names(self):
-        notes = ('- **A fix** ([#169](https://github.com/MaxGramser/homeassistant_espscreen/issues/169)). Also #170 and '
-                 'again #169, a pull request https://github.com/MaxGramser/homeassistant_espscreen/pull/151, not '
+        notes = ('- **A fix** ([#169](https://github.com/GiorgioAresu/homeassistant_espscreen/issues/169)). Also #170 and '
+                 'again #169, a pull request https://github.com/GiorgioAresu/homeassistant_espscreen/pull/151, not '
                  'a colour like &#35;1 or a heading anchor docs/PAGES.md#updating, nor another repository '
                  'https://github.com/esphome/esphome/issues/9999.')
         self.assertEqual(release.issues_in(notes), [169, 170, 151])
@@ -241,9 +241,9 @@ class ThePlugins(unittest.TestCase):
         self.assertIn('plugin API 0.10', problems[0])
 
     def test_the_address_beside_tesseras_own(self):
-        self.assertEqual(release_plugins.remote_of('git@github.com:MaxGramser/homeassistant_espscreen.git'),
+        self.assertEqual(release_plugins.remote_of('git@github.com:GiorgioAresu/homeassistant_espscreen.git'),
                          'git@github.com:MaxGramser/tessera-plugins.git')
-        self.assertEqual(release_plugins.remote_of('https://github.com/MaxGramser/homeassistant_espscreen'),
+        self.assertEqual(release_plugins.remote_of('https://github.com/GiorgioAresu/homeassistant_espscreen'),
                          'https://github.com/MaxGramser/tessera-plugins')
         with self.assertRaises(release_plugins.Problem):
             release_plugins.remote_of('https://example.org/other.git')
